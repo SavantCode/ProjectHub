@@ -1,0 +1,351 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+.project-card button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.project-card button:hover {
+    background-color: #0056b3;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*---------------------------------------------------------*/
+/* Footer section */
+#footer {
+    background-color: #f4f4f9; /* Light background color for footer */
+    padding: 40px 0; /* Adds padding above and below footer */
+    margin-top: 40px; /* Adds space above footer */
+}
+
+.footer-container {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space between footer elements */
+    align-items: center; /* Vertically centers the items */
+    max-width: 1200px; /* Limits maximum width of footer content */
+    margin: 0 auto; /* Centers footer content */
+    padding: 0 20px; /* Adds padding inside the footer */
+}
+
+.footer-image img {
+    width: 100%; /* Makes image take full width of the container */
+    max-width: 500px; /* Limits image width to 500px */
+    border-radius: 10px; /* Rounded corners for image */
+}
+
+.footer-text {
+    flex: 1; /* Takes up remaining space */
+    padding-left: 40px; /* Adds space to the left of the text */
+}
+
+.footer-box {
+    background-color: #fff; /* White background for the footer box */
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 10px; /* Rounded corners for box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.footer-box h2 {
+    font-size: 1.8rem; /* Larger font size for heading */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.footer-box p {
+    font-size: 1rem; /* Standard font size for paragraph */
+    color: #555; /* Slightly lighter color for text */
+    line-height: 1.6; /* Increases line height for readability */
+}
+/*middle tweet section ends here------------------------------------------- */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+.project-card button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.project-card button:hover {
+    background-color: #0056b3;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*---------------------------------------------------------*/
+/* Footer section */
+#footer {
+    background-color: #f4f4f9; /* Light background color for footer */
+    padding: 40px 0; /* Adds padding above and below footer */
+    margin-top: 40px; /* Adds space above footer */
+}
+
+.footer-container {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space between footer elements */
+    align-items: center; /* Vertically centers the items */
+    max-width: 1200px; /* Limits maximum width of footer content */
+    margin: 0 auto; /* Centers footer content */
+    padding: 0 20px; /* Adds padding inside the footer */
+}
+
+.footer-image img {
+    width: 100%; /* Makes image take full width of the container */
+    max-width: 500px; /* Limits image width to 500px */
+    border-radius: 10px; /* Rounded corners for image */
+}
+
+.footer-text {
+    flex: 1; /* Takes up remaining space */
+    padding-left: 40px; /* Adds space to the left of the text */
+}
+
+.footer-box {
+    background-color: #fff; /* White background for the footer box */
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 10px; /* Rounded corners for box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.footer-box h2 {
+    font-size: 1.8rem; /* Larger font size for heading */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.footer-box p {
+    font-size: 1rem; /* Standard font size for paragraph */
+    color: #555; /* Slightly lighter color for text */
+    line-height: 1.6; /* Increases line height for readability */
+}
+/*-------------------FEEEED BAAAAAAAAACK SECTION STARTS HERE----------------------- */
+
+/* Feedback form */
+#feedback {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space between sections */
+    padding: 20px; /* Adds space inside feedback section */
+    margin-top: 40px; /* Adds space above feedback section */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners for feedback box */
+    max-width: 1200px; /* Limits the width of the feedback section */
+    margin: 0 auto; /* Centers the feedback section */
+}
+
+.feedback-container {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space between left and right sections */
+    width: 100%; /* Ensures container takes full width */
+}
+
+.feedback-left, .right-section {
+    width: 48%; /* Each section takes up 48% of the width */
+}
+
+.quiz-options {
+    display: flex; /* Flexbox for radio button layout */
+    justify-content: space-between; /* Distributes space between options */
+    width: 100%; /* Makes the options take full width */
+    margin: 10px 0; /* Adds vertical space between question and options */
+}
+
+.quiz-label {
+    margin-right: 20px; /* Adds space between Yes and No options */
+    font-size: 1rem; /* Adjust font size for options */
+}
+
+textarea {
+    width: 100%; /* Makes textarea take full width */
+    padding: 10px; /* Adds padding inside the textarea */
+    border-radius: 5px; /* Rounded corners for textarea */
+    border: 1px solid #ccc; /* Light border around the textarea */
+    margin-bottom: 15px; /* Adds space below textarea */
+}
+
+button {
+    align-self: flex-start; /* Aligns button to the left */
+    padding: 10px 20px; /* Adds padding inside the button */
+    border: none; /* Removes default button border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #007BFF; /* Blue button background */
+    color: white; /* White text on button */
+    cursor: pointer; /* Changes cursor to pointer when hovering */
+    font-size: 1rem; /* Standard font size */
+    margin-top: 10px; /* Adds space above button */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Center-align "Would you hire me?" question */
+.right-section h2 {
+    margin-bottom: 20px; /* Adds space below heading */
+}
+
+.right-section button {
+    display: block; /* Makes the button block-level */
+    margin: 20px auto 0; /* Centers the button and adds space above */
+    max-width: 200px; /* Limits button width */
+}
+/* Feedback section ends here */
+
+
+/*------------------------unordered list css here */ 
+ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Adds space on the left side for the bullets */
+    text-align: left; /* Aligns the list items to the left */
+}
+
+li {
+    font-size: 1rem; /* Adjust the font size */
+    margin-bottom: 10px; /* Adds space between the list items */
+}
+
+.feedback-left{
+    background-color: #727b84;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 12px;
+}
+
+.right-section{
+    background-color: bisque;
+}
+#feedback{
+    background-color: #333;
+}
+
+#comments { /* This CSS is to adjust COMMENT BOX*/
+    width: 90%; /* Adjust to your desired width */
+    max-width: 550px; /* Optional: To limit the maximum width */
+    min-width: 250px; /* Optional: To set a minimum width */
+    resize: horizontal; /* Allows the user to resize horizontally if needed */
+    
+}
+#feedBtb{
+    border: 2px solid white;
+}
+.blank{
+    background-color: #333;
+    height: 3rem;
+    margin-top: 3rem;
+}
+

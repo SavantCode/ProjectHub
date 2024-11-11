@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projects Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Mini Projects Hub</h1>
+        <p>Explore various web development projects demonstrating my HTML, CSS, and JavaScript skills.</p>
+    </header>
+    <section id="projects">
+        <div class="project-card">
+            <h2>To-Do List App</h2>
+            <p>A simple app for task management.</p>
+            <button onclick="loadProject('ToDoList_JavaScriptPorject')">Try It</button>
+        </div>
+        <div class="project-card">
+            <h2>Quote Generator</h2>
+            <p>Upload Quote directly on Twitter(pop-up)</p>
+            <button onclick="loadProject('QuoteGeneratorProject')">Try It</button>
+        </div>
+        <div class="project-card">
+            <h2>Stone Paper Scissor</h2>
+            <p>Have fun</p>
+            <button onclick="loadProject('Stone_Paper_Scissor')">Try It</button>
+        </div>
+
+        <div class="project-card">
+            <h2>Netfilx UI clone</h2>
+            <p>Completely Responsive</p>
+            <button onclick="loadProject('NetflixClone')">Try It</button>
+        </div>
+
+        <div class="project-card">
+            <h2>Amazon UI clone</h2>
+            <p>Have fun</p>
+            <button onclick="loadProject('AmazonCloneApniKaksha')">Try It</button>
+        </div>
+        <div class="project-card">
+            <h2>Project 1</h2>
+            <p>Description</p>
+            <button onclick="loadProject('NetflixClone')">Try It</button>
+        </div>
+
+
+
+    </section>
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="project-frame" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+        <!-- Tweet middle section -->
+        <section id="footer">
+            <div class="footer-container">
+                <div class="footer-image">
+                    <img src="tweet.jpg" alt="Footer Image">
+                </div>
+                <div class="footer-text">
+                    <div class="footer-box">
+                        <h2>________________________________________</h2>
+                        <p>I don't mean to bother you, but I'd love the chance to stand out and contribute to your projects, and grow with your team. I'm excited about the possibility to learn and bring value.</p>
+
+                        <ul>
+                            <li>Please complete the feedback form.</li>
+                            <li>Click the 'YES' and 'Submit Feedback' button to submit your response.</li>
+                            <li>Refresh the page to view any updates.</li>
+                        </ul>
+                        
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feed back + hire me------------------------------------------------------------------------------------------------------- -->
+         <!-- Feedback Section -->
+    <section id="feedback">
+        <div class="feedback-container">
+            <!-- Left Section (Quiz & Comment) -->
+            <div class="feedback-left">
+                <h2>Did you enjoy my pitch?</h2>
+                <div class="quiz-options">
+                    <label class="quiz-label">
+                        <input type="radio" name="pitch" value="Yes"> Yes
+                    </label>
+                    <label class="quiz-label">
+                        <input type="radio" name="pitch" value="No"> No
+                    </label>
+                </div>
+                <textarea id="comments" placeholder="Please share your comments..." rows="4"></textarea>
+                <button id="feedBtb" onclick="submitFeedback()">Submit Feedback</button>
+            </div>
+
+            <!-- Right Section (Hire Question) -->
+            <div class="right-section">
+                <h2>Would you please hire me to work with you?</h2>
+                <button onclick="hireMe()">YES</button>
+                
+                <p>Click 'YES' to see full functionality of webisite</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+     <!-- Modal for Hiring Confirmation -->
+     <div id="hire-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>🎉 Thank you for hiring me! 🎉</h2>
+            <p>I'm excited to work with you!</p>
+        </div>
+    </div>
+
+    <!-- Modal for Feedback Confirmation -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Thank you for your feedback!</h2>
+            <p>Your feedback has been saved successfully.</p>
+        </div>
+    </div>
+
+<!---------------------------------complete footer line-------------->
+<div class="blank"></div>
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+    
